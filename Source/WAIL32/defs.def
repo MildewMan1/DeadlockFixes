@@ -1,0 +1,12 @@
+LIBRARY "WINGREPLACEMENT"
+EXPORTS
+WinGCreateDC
+WinGRecommendDIBFormat
+WinGCreateBitmap
+WinGGetDIBPointer
+WinGGetDIBColorTable
+WinGSetDIBColorTable
+WinGCreateHalftonePalette
+WinGCreateHalftoneBrush
+WinGBitBlt
+WinGStretchBlt
