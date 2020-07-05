@@ -8,3 +8,7 @@ cause freezing issues like the original WAIL32.dll does.
 The WING32.dll also receives calls from the game and forwards them to functions in Windows' GDI32.dll.
 
 Putting these 3 files in the Deadlock folder should correct the freezing and crashing problems.
+
+NOTE: FOR WINDOWS XP, USE THE DLLS IN THE WINDOWSXP FOLDER ALONG WITH THE MSS32.DLL.
+
+The compiled DLLs have only been tested on Windows XP 32-bit and Windows 10 64-bit. If they do not work on another version, the source code has been included.
