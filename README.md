@@ -1,9 +1,9 @@
 # DeadlockFixes
-Deadlock: Planetary Conquest crashes when the user's screen resolution width > 1280 due to an array overflow error in the game and also due to a bug in the WAIL32 version that came with the game.
+Deadlock: Planetary Conquest crashes when the user's screen resolution width is > 1280 due to an array overflow error in the game and will also crash due to a bug in the WAIL32 version that came with the game.
 
 Using the WING32.dll file will cause Deadlock to run at a maximum width of 1280, which will prevent the array overflow error that causes the crash to occur when zooming into a territory.
 
-This MSS32.dll came with Warcraft 3. The included WAIL32.dll is a dll that gets calls from Deadlock and forwards them on to the MSS32.dll, which doesn't cause freezing issues like the original WAIL32.dll does.
+The MSS32.dll came with Warcraft 3. The included WAIL32.dll is a dll that gets calls from Deadlock and forwards them on to the MSS32.dll, which doesn't cause freezing issues like the original WAIL32.dll does.
 
 Putting these 3 files in the Deadlock folder should correct the freezing and crashing problems.
 
